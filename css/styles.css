@@ -94,6 +94,12 @@ body {
 }
 .hii {
     background-color: #2E2F42;
+    height: 600px;
+    width: 1440px;
+    top: 76px;
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
 }
 
 .intro {
@@ -103,6 +109,9 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    display: flex;
+    padding: 188px 472px;
+
 
 }
 
@@ -116,13 +125,24 @@ body {
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .action:hover,
 .action:focus {
     background-color: #404BBF;
 }
+.clear {
+    display: flex;
+    justify-content: center;
+    padding-left: 156px;
+    padding-right: 156px;
+    gap: 8px;
 
+}
 .values {
     color: #2E2F42;
     font-size: 20px;
@@ -145,9 +165,21 @@ body {
     text-align: center;
     text-transform: capitalize;
 }
+.symple {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
 
 .pals {
-    background-color: var(--color-CLOUD)
+    background-color: var(--color-CLOUD);
+    display: flex;
+    width: 1440px;
+    height: 732px;
+    top: 1548px;
+    flex-wrap: wrap;
+    
 }
 
 .team {
@@ -158,10 +190,24 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    display: flex;
+    padding-top: 120px;
+    padding-left: 639px;
+    padding-right: 639px;   
+}
+.empl {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 264px;
+    height: 380px;
+    padding-left: 156px;
+    
 }
 
 .face {
     background-color: #FFFFFF;
+    
 }
 
 .name {
@@ -184,6 +230,10 @@ body {
 
 .down {
     background-color: #2e2f42;
+    display: flex;
+    width: 1440px;
+    height: 321px;
+    top: 2280px;
 }
 
 .logo>.second-span {
