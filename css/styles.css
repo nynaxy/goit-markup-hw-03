@@ -24,6 +24,10 @@ body {
     margin: 0 auto;
     padding: 0px 15px;
 }
+.visuals-for-nav {
+    display: flex;
+    align-items: center;
+}
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -33,6 +37,7 @@ body {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px;
 
 }
 
