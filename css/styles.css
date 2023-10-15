@@ -128,13 +128,37 @@ body {
 .action:focus {
     background-color: #404BBF;
 }
+.hii2 {
+    padding: 120px 0px;
 
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.some {
+    display: flex;
+    gap: 24px;
+
+}
+.enlist {
+    width: calc(100%-72px/4)
+}
 .values {
     color: #2E2F42;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 
 .explain {
