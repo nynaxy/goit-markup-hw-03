@@ -7,7 +7,9 @@
     --color-CLOUD: #F4F4FD;
     --color-WHITE: #FFFFFF;
 }
-
+.img {
+    display: block;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
