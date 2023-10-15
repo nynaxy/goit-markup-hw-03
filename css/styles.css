@@ -38,7 +38,7 @@ body {
     color: #4D5AE5;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0px;
+    
 
 }
 
@@ -54,7 +54,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+    padding: 24px 0px;
 
 }
 
