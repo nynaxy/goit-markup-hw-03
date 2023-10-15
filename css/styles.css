@@ -54,8 +54,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0px;
-
 }
 
 .main-element {
@@ -65,6 +63,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0px;
 
 }
 
