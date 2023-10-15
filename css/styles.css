@@ -7,27 +7,13 @@
     --color-CLOUD: #F4F4FD;
     --color-WHITE: #FFFFFF;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
-.up {
-       border-bottom: 1px solid var(--color-CORNFLOWER);
-       display: flex;
-       justify-content: space-between;
-       padding: 24px 0;
-       align-items: center;
-       height: 72px;
-       width: 1440px;
 
-}
-.navi {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 0;
-
-}
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -37,25 +23,18 @@ body {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-    align-self: center;
-    display: flex;
-    padding: 24px 0px 24px 156px;
-
 
 }
-.logo > .first-span {
-    color:#2E2F42;;
+
+.logo>.first-span {
+    color: #2E2F42;
+    ;
 }
+
 .list {
     list-style: none;
-    }
-.menu {
-    display: flex;
-    padding: 24px 0px 24px 76px;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 40px;
 }
+
 .main-element {
     text-decoration: none;
     font-size: 16px;
@@ -63,8 +42,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-        
+
 }
+
 .main-element:hover,
 .main-element:focus {
     color: #404bbf;
@@ -73,14 +53,7 @@ body {
 .contact-info {
     font-style: normal;
 }
-.contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
-    padding: 24px 156px 24px 332px;
-    justify-content: space-evenly;
-}
+
 .contact-data {
     text-decoration: none;
     font-size: 16px;
@@ -88,18 +61,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .contact-data:hover,
 .contact-data:focus {
     color: #404bbf;
 }
+
 .hii {
     background-color: #2E2F42;
-    height: 600px;
-    width: 1440px;
-    top: 76px;
-    display: flexbox;
-    align-content: center;
-    justify-content: center;
 }
 
 .intro {
@@ -109,9 +78,6 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    display: flex;
-    padding: 188px 472px;
-
 
 }
 
@@ -125,24 +91,13 @@ body {
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
-    padding: 16px 32px 16px 32px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
 }
 
 .action:hover,
 .action:focus {
     background-color: #404BBF;
 }
-.clear {
-    display: flex;
-    justify-content: center;
-    padding-left: 156px;
-    padding-right: 156px;
-    gap: 8px;
 
-}
 .values {
     color: #2E2F42;
     font-size: 20px;
@@ -165,21 +120,9 @@ body {
     text-align: center;
     text-transform: capitalize;
 }
-.symple {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    justify-content: center;
-}
 
 .pals {
-    background-color: var(--color-CLOUD);
-    display: flex;
-    width: 1440px;
-    height: 732px;
-    top: 1548px;
-    flex-wrap: wrap;
-    
+    background-color: var(--color-CLOUD)
 }
 
 .team {
@@ -190,24 +133,10 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    display: flex;
-    padding-top: 120px;
-    padding-left: 639px;
-    padding-right: 639px;   
-}
-.empl {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    width: 264px;
-    height: 380px;
-    padding-left: 156px;
-    
 }
 
 .face {
     background-color: #FFFFFF;
-    
 }
 
 .name {
@@ -230,10 +159,6 @@ body {
 
 .down {
     background-color: #2e2f42;
-    display: flex;
-    width: 1440px;
-    height: 321px;
-    top: 2280px;
 }
 
 .logo>.second-span {
@@ -245,6 +170,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .for-clicking {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -258,13 +184,17 @@ body {
     cursor: pointer;
 
 }
-.for-clicking:hover,:focus {
+
+.for-clicking:hover,
+:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
+
 .a {
     text-decoration: none;
 }
+
 .option {
     font-size: 20px;
     font-weight: 500;
@@ -273,6 +203,7 @@ body {
     color: #2e2f42;
 
 }
+
 .description {
     color: #434455;
     font-size: 16px;
