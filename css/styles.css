@@ -49,6 +49,13 @@ body {
 .list {
     list-style: none;
 }
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px 0px;
+    
+}
 
 .main-element {
     text-decoration: none;
