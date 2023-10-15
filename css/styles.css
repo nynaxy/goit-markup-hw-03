@@ -12,6 +12,22 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.up {
+       border-bottom: 1px solid var(--color-CORNFLOWER);
+       display: flex;
+       justify-content: space-between;
+       padding: 24px 0;
+       align-items: center;
+       height: 72px;
+       width: 1440px;
+
+}
+.navi {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+
+}
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -21,6 +37,10 @@ body {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    align-self: center;
+    display: flex;
+    padding: 24px 0px 24px 156px;
+
 
 }
 .logo > .first-span {
@@ -28,6 +48,13 @@ body {
 }
 .list {
     list-style: none;
+    }
+.menu {
+    display: flex;
+    padding: 24px 0px 24px 76px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
 }
 .main-element {
     text-decoration: none;
@@ -36,7 +63,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+        
 }
 .main-element:hover,
 .main-element:focus {
@@ -45,6 +72,14 @@ body {
 
 .contact-info {
     font-style: normal;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 156px 24px 332px;
+    justify-content: space-evenly;
 }
 .contact-data {
     text-decoration: none;
