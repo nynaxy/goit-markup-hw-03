@@ -15,7 +15,15 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
+.upp {
+    border-bottom: 1px solid var(--color-CORNFLOWER);
+}
+.header-visuals {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
