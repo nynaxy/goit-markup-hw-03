@@ -270,8 +270,8 @@ body {
     max-width: 264px;
 }
 .port-main-sec {
-padding: top 96px;
-padding: bottom 120px;
+padding-top: 96px;
+padding-bottom: 120px;
 }
 .port-butt {
     display: flex;
@@ -296,19 +296,20 @@ padding: bottom 120px;
 
 }
 
-.for-clicking:hover,
+.for-clicking:hover,:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+}
 .port-im {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
-:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+.port-im-element {
+    width: calc((100%-48px)/3);
 }
-
 .aaa {
     text-decoration: none;
     width: calc((100%-48px)/3);
