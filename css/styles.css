@@ -50,7 +50,12 @@ body {
     color: #2E2F42;
     ;
 }
-
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 .list {
     list-style: none;
 }
