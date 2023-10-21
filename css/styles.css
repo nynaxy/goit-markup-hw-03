@@ -308,7 +308,7 @@ padding-bottom: 120px;
     row-gap: 48px;
 }
 .port-im-element {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3)
 }
 .aaa {
     text-decoration: none;
