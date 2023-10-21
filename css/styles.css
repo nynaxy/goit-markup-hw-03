@@ -42,7 +42,7 @@ body {
 
 }
 
-.logo>.first-span {
+.logo-up>.first-span {
     color: #2E2F42;
     ;
 }
@@ -255,7 +255,7 @@ body {
 
 
 }
-.logo>.second-span {
+.logo-down>.second-span {
     color: #F4F4FD;
 }
 
