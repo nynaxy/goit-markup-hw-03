@@ -14,6 +14,11 @@
 img {
     display: block;
 }
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -63,6 +68,10 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    margin-right: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 
 .main-element {
@@ -87,6 +96,7 @@ body {
 .mail-or-call {
     display: flex;
     gap: 40px;
+    padding: 24px 0px 24px 0px;
 }
 .contact-data {
     text-decoration: none;
@@ -114,6 +124,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
+   
 }
 
 .action {
@@ -301,11 +312,6 @@ padding-bottom: 120px;
 
 }
 
-.for-clicking:hover,:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-    border: 1px solid transparent;
-}
 .port-im {
     display: flex;
     flex-wrap: wrap;
