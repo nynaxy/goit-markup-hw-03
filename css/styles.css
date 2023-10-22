@@ -314,6 +314,11 @@ padding-bottom: 120px;
     border-radius: 4px;
 
 }
+.for-clicking:hover,:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    border: 1px solid transparent
+}
 
 .port-im {
     display: flex;
